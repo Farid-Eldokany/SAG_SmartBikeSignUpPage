@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <script src="JS/jquery-3.3.1.slim.min.js" ></script>
+   <script src="JS/bootstrap4.min.js"></script>
+   <link rel="stylesheet" href="CSS/bootstrap.min.css">
+   <link rel="stylesheet" href="CSS/home_file.css">
+   <body>
+      <div class="floating" id="waiting">
+         <label class="console-container">A Contestant Is Logged In . . .</label>
+      </div>
+      <div id="homebuttons">
+         <button class="signup" onclick="signUp()">Sign Up</button>
+         <button class="login"onclick="login()">Login</button>
+      </div>
+      <div class="loginform" id="loginform">
+         <input type="text" placeholder="Enter your email address..." id="staticEmail" size="48">
+         <button onclick="submitLoginForm()" class="confirm">Sign In</button>
+      </div>
+      <div class="signupform "id="signupform">
+         <input type="text" placeholder="Enter your name..." id="staticName2" size="48">   
+         <input type="text" placeholder="Enter your phone..." id="staticPhone2" size="48">
+         <input type="text" placeholder="Enter your email address..." id="staticEmail2" size="48">
+         <button onclick="submitSignUpForm()" class="confirm">Register</button>        
+      </div>
+   </body>
+   <script src="JS/home_file.js"></script>
+</html>

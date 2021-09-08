@@ -1,0 +1,103 @@
+.floating {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	position: relative;
+	top: 150px;
+}
+
+.console-container {
+	background-color: #011F3D;
+	border-radius: 25px;
+	font-family: Khula;
+	font-size: 4em;
+	text-align: center;
+	height: 100px;
+	width: 1000px;
+	position: absolute;
+	color: white;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+@keyframes floating {
+	0% {
+		transform: translate(0, 0px);
+	}
+	50% {
+		transform: translate(0, 100px);
+	}
+	100% {
+		transform: translate(0, -0px);
+	}
+}
+
+body {
+	background-image: url("Images/background.gif");
+	background-repeat: repeat;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.signup {
+	background: #ffffff;
+	background: linear-gradient(#ffffff, #ffffff 50%, #f6406d 50%, #f6406d);
+	;
+	border-radius: 1000px;
+	padding: 20px 45px;
+	color: #000000;
+	font: normal bold 26px/1 "Open Sans", sans-serif;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 505px;
+	position: relative;
+}
+
+.login {
+	background: #ffffff;
+	background: linear-gradient(#ffffff, #ffffff 50%, #f6406d 50%, #f6406d);
+	;
+	border-radius: 1000px;
+	padding: 20px 45px;
+	color: #000000;
+	font: normal bold 26px/1 "Open Sans", sans-serif;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	right: 178px;
+}
+
+.loginform {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 400px;
+	position: relative;
+	top: 250px;
+	left: 430px;
+}
+
+.signupform {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 400px;
+	position: relative;
+	top: 250px;
+	left: 430px;
+}
+
+.confirm {
+	background: #3d85c6;
+	border-radius: 11px;
+	padding: 20px 45px;
+	color: #ffffff;
+	font: normal bold 15px/1 "Open Sans", sans-serif;
+	text-align: center;
+	position: relative;
+	top: 15px;
+	left: 220px
+}
